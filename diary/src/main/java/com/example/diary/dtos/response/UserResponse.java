@@ -1,5 +1,6 @@
 package com.example.diary.dtos.response;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -11,9 +12,11 @@ import org.springframework.data.annotation.Id;
 @NoArgsConstructor
 @Builder
 
-public class EntryResponse {
+public class UserResponse {
     @Id
     private Long id;
-    private String title;
-    private String content;
+    private String username;
+    private String email;
+
 }
+

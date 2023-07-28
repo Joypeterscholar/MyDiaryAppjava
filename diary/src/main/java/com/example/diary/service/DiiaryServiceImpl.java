@@ -60,6 +60,14 @@ public class DiiaryServiceImpl implements DiaryService{
                 .build();
     }
 
+<<<<<<< HEAD
+=======
+    @Override
+    public Diary findById(Long id) {
+        return diiaryRepository.findById(id).orElseThrow();
+    }
+
+>>>>>>> 9616183 (pushed)
 
 }
 

@@ -24,6 +24,7 @@ public class EntryServiceImpl implements EntryService {
     }
 
     public List<Entry> getAllEntryRecords() {
+
         return entryRepository.findAll();
     }
 

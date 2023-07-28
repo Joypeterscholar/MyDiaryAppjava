@@ -1,0 +1,16 @@
+----------------------------------------------------------------
+Wed Jul 26 14:17:04 EDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-0189-936b-35c4-000001103f88 
+on database directory memory:/home/user/Downloads/diary (1)/32ce24d5-0169-4c48-b30d-c5731f26da32 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=20.0.1+9-29
+user.dir=/home/user/Downloads/diary (1)
+os.name=Linux
+os.arch=amd64
+os.version=5.19.0-46-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Jul 26 14:17:09 EDT 2023:
+Shutting down instance a816c00e-0189-936b-35c4-000001103f88 on database directory memory:/home/user/Downloads/diary (1)/32ce24d5-0169-4c48-b30d-c5731f26da32 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a 

@@ -1,17 +1,5 @@
 package com.example.diary;
 
-<<<<<<< HEAD
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
-class DiaryApplicationTests {
-
-	@Test
-	void contextLoads() {
-	}
-
-=======
 import com.example.diary.data.model.Diary;
 import com.example.diary.dtos.request.EntryRequest;
 import com.example.diary.dtos.response.EntryResponse;
@@ -58,5 +46,4 @@ public class DiaryApplicationTests {
 		assertNotNull(savedDiary);
 		assertEquals("Test Diary", savedDiary.getTitle());
 	}
->>>>>>> 9616183 (pushed)
 }

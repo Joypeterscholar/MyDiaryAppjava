@@ -14,11 +14,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-<<<<<<< HEAD
-@RequestMapping("/diary/{diaryId}/entry")
-=======
 @RequestMapping("/users/diary/entry")
->>>>>>> 9616183 (pushed)
 public class EntryController {
     private final EntryService entryService;
 

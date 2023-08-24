@@ -13,11 +13,7 @@ import java.math.BigInteger;
 import java.util.UUID;
 
 @RestController
-<<<<<<< HEAD
-@RequestMapping("/diary")
-=======
 @RequestMapping("/users/diary/")
->>>>>>> 9616183 (pushed)
 public class DiaryController {
 
     private final DiaryService diaryService;
@@ -27,21 +23,16 @@ public class DiaryController {
         this.diaryService = diaryService;
     }
 
-<<<<<<< HEAD
-    @PostMapping("/diary")
-=======
+
+
     @PostMapping("/create")
->>>>>>> 9616183 (pushed)
+
     public ResponseEntity<DiaryResponse> createDiary(@RequestBody DiaryRequest diaryRequest) {
         DiaryResponse createdDiary = diaryService.createDiary(diaryRequest);
         return new ResponseEntity<>(createdDiary, HttpStatus.CREATED);
     }
 
-<<<<<<< HEAD
-        @PostMapping("/{diaryId}/entries")
-=======
         @PostMapping("/{diaryId}/addEntries")
->>>>>>> 9616183 (pushed)
         public ResponseEntity<DiaryResponse> addEntryToDiary(@PathVariable Long diaryId, @RequestBody EntryRequest entryRequest) {
             DiaryResponse updatedDiary = diaryService.addEntryToDiary(diaryId, entryRequest);
             return new ResponseEntity<>(updatedDiary, HttpStatus.OK);

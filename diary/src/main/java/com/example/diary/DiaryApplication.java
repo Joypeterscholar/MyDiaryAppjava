@@ -2,13 +2,10 @@ package com.example.diary;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-<<<<<<< HEAD
 
-=======
 import org.springframework.context.annotation.Import;
 
 @Import(DiaryConfiguration.class)
->>>>>>> 9616183 (pushed)
 @SpringBootApplication
 public class DiaryApplication {
 
@@ -17,8 +14,6 @@ public class DiaryApplication {
 	}
 
 }
-<<<<<<< HEAD
-=======
 
 //
 //import javax.swing.*;
@@ -178,4 +173,3 @@ public class DiaryApplication {
 //}
 //
 
->>>>>>> 9616183 (pushed)

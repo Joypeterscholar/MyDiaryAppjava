@@ -18,9 +18,6 @@ public class EntryRequest {
     private Long entryId;
     private String title;
     private String content;
-<<<<<<< HEAD
-
-=======
     private String testEntry;
 
 
@@ -28,6 +25,5 @@ public class EntryRequest {
         this.testEntry = testEntry;
         this.content = content;
     }
->>>>>>> 9616183 (pushed)
 }
 
